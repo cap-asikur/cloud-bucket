@@ -70,10 +70,15 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 6rem 5% 4rem;
+  width: 100%;
+  padding: 8rem 5% 6rem;
   text-align: center;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center center;
+  border-bottom: 1px solid var(--card-border);
 }
 
 .hero h1 {
